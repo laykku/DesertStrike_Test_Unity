@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5c5fb724511544aaa6a3264696d749, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  LevelSettings:
+    Width: 6
+    Height: 6
+    ObstacleCount: 50
+    AllowDiagonal: 1
+  ObstacleFactorySettings:
+    ObstaclePrefabs:
+    - {fileID: 7684471770717815477, guid: 426aa1ac35e46de46932ec99b5d9cfe4, type: 3}
+    - {fileID: 6457534448605091436, guid: 37ce671a156f14d44aa62a433c2028d1, type: 3}
+    - {fileID: 8000079343470782024, guid: e3486422a8c66ae44a5b05326360f65d, type: 3}
+    - {fileID: 5790411581855319332, guid: 3cdc56ebe4bdfa647aa5af4db082e1bc, type: 3}
+    - {fileID: 4362109988431596098, guid: e8c88666b256d4742a89f9ccdf2432fd, type: 3}
+    - {fileID: 355251656122324053, guid: 77c461220c99fd74c930199727515cf3, type: 3}
+    - {fileID: 8099042502045546100, guid: 035c0783e053cae42af1ad4c512d76ee, type: 3}
+    - {fileID: 2472224262955258372, guid: 81fce285495d0a04ca9e48e2cbce4d02, type: 3}
+  EnemyFactorySettings:
+    EnemyPrefabs:
+    - {fileID: 4656858807631652016, guid: 7415ef43d37c064489ea9461194eb42e, type: 3}
+    - {fileID: 7492847619525415529, guid: e73f37a88b901154da105c36aab54f9a, type: 3}
